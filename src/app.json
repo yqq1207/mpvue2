@@ -1,0 +1,28 @@
+{
+  "pages": ["pages/integral/index",
+    "pages/reserve/index", 
+    "pages/index/index", "pages/mine/index", "pages/item/paySuccess", "pages/mine/detail", "pages/item/index", "pages/item/pay", "pages/item/payError", "pages/item/joinError"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00A4A2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#ff6464",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "拼团首页",
+      "iconPath": "/static/img/index.png",
+      "selectedIconPath": "/static/img/index-a.png"
+    }, {
+      "pagePath": "pages/reserve/index",
+      "text": "预定订单",
+      "iconPath": "/static/img/mine.png",
+      "selectedIconPath": "/static/img/mine-a.png"
+    }]
+  }
+}
