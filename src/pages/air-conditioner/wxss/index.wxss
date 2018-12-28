@@ -1,0 +1,146 @@
+.contron-head{
+  height: 812rpx;
+  width: 100vw;
+  background: #00A4A2;
+}
+.ruler-bg{
+  position: absolute;
+  top: 146rpx;
+  left: 148rpx;
+  width: 454rpx;
+  height: 454rpx;
+  /* margin-top: 74rpx; */
+  border-radius: 50%;
+  /* background: red; */
+}
+.ruler-bg-img{
+  position: absolute;
+  top: 0;
+  left: 0rpx;
+  width: 454rpx; height: 454rpx;
+}
+.room-temperature{
+  position: absolute;
+  bottom: 92rpx;
+  left: 160rpx;
+  width: 134rpx;
+  color: #B2B2B2;
+}
+.air-icon-box{
+  z-index: 999;
+  position: absolute;
+  top: 160rpx;
+  left: 147rpx;
+  /* width: 454rpx; */
+  width: 200rpx;
+}
+.air-temperature{
+  font-size: 92rpx;
+  color: #575757;
+}
+.air-temperature-icon{
+  color: 24rpx;
+  color: #575757;
+  position: relative;
+  top: 16rpx;
+}
+.air-type-box{
+  width: 750rpx;
+  position: absolute;
+  left: 0;
+  bottom: 94rpx;
+}
+.air-type{
+  width: 204rpx;
+  height: 52rpx;
+  background: #000;
+  color: #FFFFFF;
+  border-radius: 26rpx;
+  margin: 0 auto;
+  line-height: 52rpx;
+}
+.contron-middle{
+  padding-left: 100rpx;
+  padding-right: 80rpx;
+  width: 750rpx;
+  /* height: 232rpx; */
+  height: calc(100vh - 992rpx);
+  border-bottom: 1px solid #000;
+}
+.off-btn-box{
+  width: 140rpx;
+  height: 70rpx;
+  position: absolute;
+  left: 305rpx;
+  bottom: 0rpx;
+  background: #fff;
+  border-radius: 140rpx 140rpx 0 0;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+.br97{
+  border: 2rpx solid #979797;
+}
+.bg00A4A2{
+  background: #00A4A2;
+  border: 2rpx solid #00A4A2;
+}
+.alicen{
+  align-items: center;
+}
+.contron-foter{
+  width: 750rpx;
+  height: 180rpx;
+  padding-left: 24rpx;
+  padding-right: 24rpx;
+}
+/* .cilcle-icon-box{
+  width: 4rpx;
+  height: 4rpx;
+  position: absolute;
+  left: 248rpx;
+  top: 248rpx;
+}
+.cilcle-icon{
+  width: 20rpx;
+  height: 20rpx;
+  background: #357BE5;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0rpx;
+  right: 166rpx;
+} */
+.cilcle-icon-box{
+  position: relative;
+  left: 60rpx;
+  top: 60rpx;
+  width: 328rpx;
+  height: 328rpx;
+  /* border: 1px solid #fff; */
+  border: 1px solid red;
+  border-radius: 50%;
+}
+.cilcle-icon-box i{
+  display: block;
+  width: 328rpx;
+  height: 328rpx;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transform: rotate(0deg)
+  /*旋转*/
+  /* animation:circleRoate 10s ;
+  animation-timing-function:linear; */
+  
+}
+.cilcle-icon-box i span{
+  position: absolute;
+  /* left: 40rpx;
+  top: 40rpx;
+  width: 40rpx;
+  height: 40rpx; */
+  border-radius: 50%;
+  background: #357BE5;
+}

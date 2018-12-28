@@ -1,5 +1,9 @@
 {
-  "pages": ["pages/integral/index",
+  "pages": [
+    "pages/air-conditioner/index",
+    "pages/reserve-list/index",
+    "pages/my-account/index",
+    "pages/integral/index",
     "pages/reserve/index", 
     "pages/index/index", "pages/mine/index", "pages/item/paySuccess", "pages/mine/detail", "pages/item/index", "pages/item/pay", "pages/item/payError", "pages/item/joinError"],
   "window": {

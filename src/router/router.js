@@ -69,5 +69,25 @@ module.exports = [
         navigationBarTitleText: '积分',
         enablePullDownRefresh: false
       }
+    },
+    {
+      path: '/pages/my-account/index',
+      config: {
+        navigationBarTitleText: 'EBO HOTEL',
+        enablePullDownRefresh: false
+      }
+    },
+    {
+      path: '/pages/reserve-list/index',
+      config: {
+        navigationBarTitleText: 'EBO HOTEL',
+        enablePullDownRefresh: false
+      }
+    }, {
+      path: '/pages/air-conditioner/index',
+      config: {
+        navigationBarTitleText: '卧室空调',
+        enablePullDownRefresh: false
+      }
     }
   ]
